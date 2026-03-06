@@ -8,7 +8,7 @@ def home():
     return render_template('login.html')
 
 # Route halaman about
-@app.route('/dashboar')
+@app.route('/dashboard')
 def about():
     return "Ini halaman dashboard"
 
